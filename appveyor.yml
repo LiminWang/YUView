@@ -3,3 +3,4 @@ install:
   - set PATH=%PATH%;%QTDIR%\bin
 build_script:
   - qmake YUView.pro
+  - msbuild
