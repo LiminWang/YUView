@@ -1,0 +1,5 @@
+install:
+  - set QTDIR=C:\Qt\5.8\msvc2015_64
+  - set PATH=%PATH%;%QTDIR%\bin
+build_script:
+  - qmake YUView.pro
